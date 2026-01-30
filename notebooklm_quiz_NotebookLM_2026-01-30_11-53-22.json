@@ -1,0 +1,678 @@
+[
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Software engineering is an engineering discipline concerned with all aspects of production, while computer science provides the underlying theories like physics does for electrical engineering.",
+        "text": "Computer science focuses on the theoretical fundamentals of computation, whereas software engineering addresses the practicalities of developing and delivering useful software."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Software engineering covers all aspects of production, including management and evolution, which extends far beyond just coding.",
+        "text": "Software engineering is a subset of computer science that focuses specifically on the coding phase of the life cycle."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This reverses the roles; computer science often deals with elegant theories applicable to small programs, while software engineering manages large, complex systems.",
+        "text": "Computer science deals with large-scale system integration, while software engineering focuses on individual algorithm efficiency."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The source material explicitly defines them as distinct disciplines with different goals and areas of focus.",
+        "text": "There is no functional difference; the terms are used interchangeably in professional industry settings."
+      }
+    ],
+    "hint": "Consider the relationship between a theoretical science and its practical application.",
+    "question": "According to Sommerville, what is the primary distinction between software engineering and computer science?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Efficiency refers to the responsiveness and resource management of the software, not its compatibility or user perception.",
+        "text": "Efficiency"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Acceptability encompasses usability, understandability, and compatibility with other systems used by the target user base.",
+        "text": "Acceptability"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Maintainability is the ease with which software can evolve to meet changing customer needs, rather than initial user perception.",
+        "text": "Maintainability"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Dependability focuses on reliability, security, and safety, ensuring the system performs as expected without causing damage.",
+        "text": "Dependability"
+      }
+    ],
+    "hint": "This attribute relates to the user's perspective and the system's fit within their environment.",
+    "question": "Which attribute of 'good software' ensures that the system is understandable and compatible with other tools used by the intended audience?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "The waterfall model is a plan-driven process where stages are independent, making it inflexible to evolving requirements during development.",
+        "text": "The model's linear nature requires that one phase is complete before the next begins, leading to significant rework if requirements change."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The waterfall model does include validation (testing), but it occurs late in the cycle, which is why rework is so expensive.",
+        "text": "The model does not include a validation phase to check for errors in the initial specification."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Incompatibility with tools is not the primary issue; the fundamental constraint is the sequential process structure.",
+        "text": "Waterfall development requires the use of automated CASE tools that are incompatible with requirement modifications."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The waterfall model is actually more common for large, multi-company systems where stable, pre-defined interfaces are required.",
+        "text": "The model is exclusively used for small-scale projects where change is naturally restricted."
+      }
+    ],
+    "hint": "Think about the sequential and 'inflexible' partitioning of the project phases.",
+    "question": "In the context of the waterfall model, why is it often considered difficult to accommodate change once the process is underway?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This figure is lower than the industry standard for professional software development, where quality assurance is more intensive.",
+        "text": "$20\\%$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "According to the source, development costs account for roughly $60\\%$, while testing costs account for $40\\%$.",
+        "text": "$40\\%$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "$60\\%$ is the typical figure associated with development costs, not testing costs.",
+        "text": "$60\\%$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While testing is expensive, it rarely consumes the vast majority of the initial production budget.",
+        "text": "$80\\%$"
+      }
+    ],
+    "hint": "The ratio between development and testing is roughly $3:2$ in terms of initial cost.",
+    "question": "When comparing the costs of software engineering, approximately what percentage of costs are typically attributed to the testing phase in professional development?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This describes the development/implementation phase rather than the validation phase.",
+        "text": "To produce an executable system that meets the initial technical design constraints."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Defining functionality and constraints is the primary goal of the software specification phase.",
+        "text": "To define the functionality of the software and the constraints on its operation."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Validation involves checking that the system does what the customer expects and follows the defined requirements.",
+        "text": "To ensure that the software conforms to its specification and meets the actual needs of the customer."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Post-delivery modifications are categorized as software evolution or maintenance.",
+        "text": "To modify the system after it has gone into use to meet new requirements."
+      }
+    ],
+    "hint": "Validation is about checking the results against the requirements and the user's intent.",
+    "question": "What is the primary objective of software validation within the software process?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "While legacy systems may have security issues, the specific problem of cross-platform/language integration is defined as heterogeneity.",
+        "text": "Security and trust"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This challenge refers to the speed at which software must be delivered to keep up with evolving market needs.",
+        "text": "Business and social change"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Heterogeneity involves developing techniques for building software that can operate across networks and integrate with diverse legacy systems.",
+        "text": "Heterogeneity"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Evolution is a process activity, not a specific challenge related to diverse hardware and software platforms.",
+        "text": "Software evolution"
+      }
+    ],
+    "hint": "Think of a term that describes a system composed of diverse, non-uniform parts.",
+    "question": "Which challenge in software engineering is driven by the need to integrate software with older legacy systems written in different programming languages?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Sequential phases are the defining characteristic of the waterfall model, not incremental development.",
+        "text": "They are conducted sequentially in strict, non-overlapping phases."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Incremental development involves building versions of the system where specification and development happen concurrently.",
+        "text": "They are interleaved activities with rapid feedback across them."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "In incremental models, validation is performed on each version to provide feedback for the next increment.",
+        "text": "Validation is only performed once all specifications have been developed for all system increments."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Even in agile/incremental models, the software is still specified, although it may be done informally.",
+        "text": "Specification is eliminated entirely to focus on rapid code development."
+      }
+    ],
+    "hint": "Consider how these activities overlap to allow for faster feedback cycles.",
+    "question": "In the incremental development model, how do specification, development, and validation relate to one another?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The primary advantage of reuse is actually the reduction in cost and time to market.",
+        "text": "It is significantly more expensive than developing software from scratch."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Since the components are pre-existing, the system's functionality is often limited by what the available software can provide.",
+        "text": "Requirements compromises are often necessary, as the reusable components may not perfectly match the user's needs."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Most software projects today are built by integrating both reusable parts and new code.",
+        "text": "It is impossible to integrate reusable components with new custom code."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "All professional software must evolve; the issue with reuse is losing control over the components' evolution, not its impossibility.",
+        "text": "The model does not allow for software evolution once the system is deployed."
+      }
+    ],
+    "hint": "Consider the trade-off made when choosing a 'ready-made' solution over a custom-built one.",
+    "question": "What is a significant drawback of the integration and configuration (reuse-oriented) process model?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Profitability is a business goal, but the ethical code places public interest above employer interests.",
+        "text": "Maximising the profitability of their employer."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Safety and health are paramount; ignoring them for a schedule is a direct violation of professional ethics.",
+        "text": "Adhering to the project schedule regardless of system safety."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The first clause of the code states that engineers must accept full responsibility for their work and its impact on the public.",
+        "text": "Software engineers shall act consistently with the public interest."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Unnecessary complexity is generally viewed as poor practice and does not relate to the public interest mandate.",
+        "text": "Ensuring that the software code is as complex as possible to prevent reverse engineering."
+      }
+    ],
+    "hint": "This is a fundamental principle that guides responsibility to society at large.",
+    "question": "According to the ACM/IEEE Code of Ethics, what should be the software engineer's primary concern regarding the public interest?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Evolution focuses on changing the system to meet new requirements and business needs after it has been deployed.",
+        "text": "Development is a creative activity for new systems, while evolution is the process of modifying existing systems to remain useful."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Both are professional engineering activities conducted within an organisational framework.",
+        "text": "Software development is managed by engineers, whereas evolution is handled entirely by end-users."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The source clarifies that evolution has historically been seen as a separate stage, although the distinction is increasingly blurred.",
+        "text": "There is no difference; evolution is simply a marketing term for the final stage of development."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "In this context, evolution refers specifically to the software itself and its adaptability over time.",
+        "text": "Evolution refers to the hardware upgrades required to run modern software."
+      }
+    ],
+    "hint": "Consider the lifecycle of a product once it reaches its first customer.",
+    "question": "How does software evolution differ from software development according to Sommerville?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Prototypes can be written in any language; the issue is the quality and structure of the code, not the language type.",
+        "text": "Prototypes are typically written in languages that cannot be compiled."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Because prototypes are developed rapidly to experiment with requirements, they lack the robustness required for a production system.",
+        "text": "The prototype is usually undocumented and structurally weak, focused on showing functionality rather than long-term maintainability."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "There is no such ethical prohibition; it is a technical decision based on code quality and risk management.",
+        "text": "Software engineering ethics prohibit the reuse of experimental code in commercial products."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Final systems can be developed using various models, including incremental ones; prototypes are simply tools used within those processes.",
+        "text": "Final systems must be developed using the waterfall model, while prototypes use incremental models."
+      }
+    ],
+    "hint": "Consider the shortcuts taken during rapid development to prove a concept.",
+    "question": "In software prototyping, why is it common practice to 'throw away' the prototype rather than evolve it into the final system?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "While these are steps, Sommerville uses more general terms: Specification, Development, Validation, and Evolution.",
+        "text": "Planning, Coding, Testing, and Deployment."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "These four activities are universal across all software engineering processes, regardless of the specific model used.",
+        "text": "Specification, Development, Validation, and Evolution."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "These are sub-activities mostly contained within the 'Specification' and 'Development' phases.",
+        "text": "Requirements, Design, Architecture, and Programming."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "These terms are more aligned with high-level project management phases rather than core software engineering activities.",
+        "text": "Concept, Vision, Planning, and Decommissioning."
+      }
+    ],
+    "hint": "One activity defines 'what' to build, one builds it, one checks it, and one changes it over time.",
+    "question": "What are the four fundamental activities common to all software processes?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Pricing does not directly dictate language choice, though it may influence the available budget for tools.",
+        "text": "It determines the programming language that the engineers are allowed to use."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Engineers must get results of required quality within budget, and pricing defines those economic boundaries.",
+        "text": "Pricing decisions affect the resources available and the compromises that must be made to meet schedule and budget constraints."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Sommerville notes that software pricing involves complex factors like market opportunity and risk, not just code volume.",
+        "text": "The pricing of software is calculated based on the number of lines of code written."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "All professional software is subject to budget constraints, whether it is a generic product or a custom system.",
+        "text": "Software pricing is only relevant for generic products, not custom software."
+      }
+    ],
+    "hint": "Consider how economic factors constrain the technical production process.",
+    "question": "Why is 'Software Pricing' considered a non-technical management activity that impacts software engineering?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Incremental development is better suited for evolving requirements where feedback is needed to define the system.",
+        "text": "Incremental Development"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The waterfall model works best when requirements are stable, as it relies on a complete specification before design begins.",
+        "text": "Waterfall Model"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This model depends on the availability of existing components, which may force changes to requirements.",
+        "text": "Integration and Configuration"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Prototyping is used specifically when requirements are NOT well-understood and need to be explored.",
+        "text": "System Prototyping"
+      }
+    ],
+    "hint": "This model is also known as the 'linear-sequential' life cycle.",
+    "question": "Which software process model is most appropriate for a system where requirements are well-understood and unlikely to change significantly during development?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Systems engineering is the broader field; software engineering is a part of the more general system engineering process.",
+        "text": "Software engineering is a broader field that includes hardware and process design."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Systems engineering takes a holistic view, specifying and integrating hardware and software components.",
+        "text": "Systems engineering is concerned with all aspects of computer-based systems development, including hardware, software, and process engineering."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The distinction is technical and scope-based, not related to the type of customer or organisation.",
+        "text": "They are identical, except that systems engineering applies only to government projects."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Systems engineering remains relevant throughout the life cycle, particularly during integration and decommissioning.",
+        "text": "Software engineering replaces systems engineering once the hardware has been purchased."
+      }
+    ],
+    "hint": "One is a component-focused discipline, while the other manages the entire product including hardware.",
+    "question": "What is the relationship between 'Software Engineering' and 'Systems Engineering'?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Technical documentation is produced during the requirements specification and design phases.",
+        "text": "To write the final technical documentation for the developers."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Feasibility studies are short, cheap studies that inform the decision of whether to proceed with detailed analysis.",
+        "text": "To assess whether the system is technically and financially realistic to develop."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Testing occurs during the validation phase, long after the feasibility study.",
+        "text": "To test the completed software system for bugs."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Training is part of the implementation or operations phase, not requirements engineering.",
+        "text": "To train the end-users on how to operate the new system."
+      }
+    ],
+    "hint": "It is an early assessment to see if a project should 'go' or 'no-go'.",
+    "question": "In the requirements engineering process, what is the primary purpose of a 'feasibility study'?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Documentation remains essential, especially for large-scale systems and regulatory compliance.",
+        "text": "Eliminating the need for software documentation."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The need to deliver software quickly to diverse platforms (heterogeneity) is a major modern challenge.",
+        "text": "Coping with increasing diversity and demands for reduced delivery times."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Storage capacity is a hardware trend that has largely kept pace with software growth; the challenge is engineering complexity.",
+        "text": "Finding enough hard drive space to store complex programs."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Diversity in languages is a reality that software engineering must manage, not eliminate.",
+        "text": "Ensuring that only one programming language is used worldwide."
+      }
+    ],
+    "hint": "Think about the pressure to deliver 'faster' on 'more' types of devices.",
+    "question": "Which of the following is considered a key challenge for software engineering in the 21st century?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This refers to process productivity, not a characteristic of the software product itself.",
+        "text": "The speed at which the developers write the code."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Efficiency in software products involves responsiveness, processing time, and effective resource utilisation.",
+        "text": "The software's ability to not waste system resources such as memory and processor cycles."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This relates to value and functionality, which are separate from technical efficiency.",
+        "text": "The number of features included in the software compared to its price."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is a form of adaptability or localisation, not technical resource efficiency.",
+        "text": "The ease with which the software can be translated into multiple languages."
+      }
+    ],
+    "hint": "It is about how well the software performs without 'hogging' the computer's power.",
+    "question": "What does the 'Efficiency' attribute of professional software primarily refer to?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": " Sommerville mentions that many practitioners are not certified, and licensing varies by jurisdiction.",
+        "text": "Because it requires a license to practice in most countries."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Engineering involves getting results of required quality within schedule and budget, often involving compromises.",
+        "text": "Because engineers apply theories, methods, and tools selectively to solve problems within constraints."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Software is abstract and intangible, which is a key difference from other engineering branches.",
+        "text": "Because software follows the same physical laws as mechanical structures."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Institutional structure doesn't define the discipline; the application of methods and tools to production does.",
+        "text": "Because software engineering is taught in the same university departments as civil engineering."
+      }
+    ],
+    "hint": "It is about the pragmatic application of knowledge to get results.",
+    "question": "According to the source, why is software engineering considered an 'engineering discipline'?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Requirements engineering is still needed to define the high-priority increments.",
+        "text": "It eliminates the need for any requirements engineering."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Early delivery allows for experimentation and provides the most important functionality to the user sooner.",
+        "text": "Customers can gain value from the system early and use the early increments to refine their requirements."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While it manages risk better, it doesn't necessarily reduce the absolute cost; it may even increase it due to multiple deployments.",
+        "text": "It reduces the total cost of the project by $50\\%$."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Every delivered increment must be validated to ensure it works correctly and doesn't break existing features.",
+        "text": "It allows developers to skip the testing phase for intermediate versions."
+      }
+    ],
+    "hint": "Consider the impact of 'early use' on the customer's understanding and project utility.",
+    "question": "What is the main benefit of incremental delivery compared to a single final delivery?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Generic products are stand-alone systems produced for the general market, not a specific customer.",
+        "text": "Generic products"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Custom software is specifically commissioned by a client for their own unique requirements.",
+        "text": "Custom (bespoke) software"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Open-source refers to the licensing model, not necessarily whether it was built for a specific client.",
+        "text": "Open-source software"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While often custom, 'embedded' refers to software that controls hardware, not the nature of the development contract.",
+        "text": "Embedded systems"
+      }
+    ],
+    "hint": "Think of a term used for 'tailor-made' software.",
+    "question": "Which software type consists of systems that are developed for a specific customer to meet a particular need?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Algorithm design is a lower-level activity that happens within component design.",
+        "text": "Defining the specific algorithms for each data calculation."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Architectural design is a high-level view of how the system is organised and how its parts interact.",
+        "text": "Identifying the overall structure of the system and its principal components."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Documentation is a separate output, not a core design activity.",
+        "text": "Writing the user manual for the software."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is part of the validation phase (unit testing), not the design phase.",
+        "text": "Testing individual modules for logical errors."
+      }
+    ],
+    "hint": "It is the 'big picture' view of the system's structural organisation.",
+    "question": "In the software design process, what is 'architectural design' concerned with?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "While legacy systems exist, the primary challenge is the cost and complexity of modifying existing code without breaking it.",
+        "text": "Because it uses older programming languages that are no longer supported."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Maintaining existing software requires understanding and working with decisions made by others, often years prior.",
+        "text": "Because developers must work within the constraints of an existing system's architecture and design decisions."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Software engineering explicitly includes all aspects of production, including maintenance and evolution.",
+        "text": "Because maintenance is not considered a part of software engineering."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Testing changes is critical and possible, though it requires careful configuration management.",
+        "text": "Because it is impossible to test changes in a system that is already in use."
+      }
+    ],
+    "hint": "Think about the limitations imposed by 'pre-existing' structures and decisions.",
+    "question": "Why is 'Software Maintenance' often considered more challenging than original development?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Technical systems can be purely technical, but sociotechnical systems must include human and organisational elements.",
+        "text": "A system that only contains software components."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Software does not exist in a vacuum; it is part of a larger context that includes human operation and business rules.",
+        "text": "A system where software, hardware, people, and organisational processes interact to achieve a goal."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While these are social tools, the term refers to any complex system that embeds technical components within a human organisation.",
+        "text": "A social network application like Facebook or Twitter."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is a social robot, but the 'sociotechnical' concept is broader, covering entire business or infrastructure environments.",
+        "text": "A robot designed to interact with human social cues."
+      }
+    ],
+    "hint": "It combines the 'technical' (machines/software) with the 'social' (people/organisations).",
+    "question": "Which of the following describes a 'sociotechnical system'?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Staff turnover is a management issue, but 'rework' refers specifically to the technical work.",
+        "text": "The process of hiring new developers to replace those who left."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Change adds to cost because it necessitates repeating activities like analysis, design, and testing.",
+        "text": "Redoing work that has already been completed because of changes in requirements or design."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Testing is validation; rework is the result of change that forces a repeat of previous phases.",
+        "text": "The final stage of testing before the software is decommissioned."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Writing code without requirements is a choice; rework is the consequence when those requirements later materialise or change.",
+        "text": "A technique used in agile development to write code before the requirements are known."
+      }
+    ],
+    "hint": "It is the literal 're-doing' of a task that was already finished.",
+    "question": "What is 'rework' in the context of software process change?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Statistical analysis is used in reliability engineering, not in observational requirements gathering.",
+        "text": "To calculate the statistical likelihood of system failure."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Ethnography reveals subtle work practices that users might not explicitly mention in interviews.",
+        "text": "To understand the social and organisational requirements by observing how people actually work."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Automatic code generation is a function of certain CASE tools or model-driven engineering.",
+        "text": "To automatically generate code from a graphical system model."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Database design is part of the development phase, following requirements elicitation.",
+        "text": "To define the database schema for the system."
+      }
+    ],
+    "hint": "It is an observational technique borrowed from social science.",
+    "question": "In the requirements elicitation process, what is 'ethnography' used for?"
+  }
+]

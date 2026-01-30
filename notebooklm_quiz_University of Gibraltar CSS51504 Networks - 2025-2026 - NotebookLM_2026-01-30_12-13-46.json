@@ -1,0 +1,782 @@
+[
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Both types of networks often share the same physical infrastructure, such as optical fibres or copper wires.",
+        "text": "The physical medium used for transmission"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Computer networks are built from general-purpose hardware that supports a wide and evolving range of applications rather than being optimised for one specific task.",
+        "text": "The generality of its programmable hardware"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Modern voice and television networks have largely transitioned to digital transmission, so this is no longer a unique identifier.",
+        "text": "The ability to transmit digital signals"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "All network types can span global distances using satellite or transcontinental links.",
+        "text": "The geographical distance the signals can travel"
+      }
+    ],
+    "hint": "Consider the intended use cases and the flexibility of the underlying equipment.",
+    "question": "Which characteristic most fundamentally distinguishes a computer network from a traditional voice or television network?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Scalability refers to a network's inherent design capability to handle an increasing number of nodes and users over time.",
+        "text": "Scalable"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This refers to the technique of combining multiple signals over a single shared link, not the capacity for growth.",
+        "text": "Multiplexed"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Robustness describes the ability of a network to withstand failures, though it is often a desirable trait in large systems.",
+        "text": "Robust"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes the process of wrapping data in protocol headers, which is unrelated to the size or growth of the system.",
+        "text": "Encapsulated"
+      }
+    ],
+    "hint": "Think about the term used to describe systems that can expand without needing a complete redesign.",
+    "question": "A system that is designed to support growth to an arbitrarily large size is described as which of the following?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This describes multi-homing or router functionality rather than the physical properties of a single link.",
+        "text": "A link that allows a node to connect to multiple different networks simultaneously"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Multiple-access links, such as Wi-Fi or Ethernet segments, allow several devices to communicate over the same shared infrastructure.",
+        "text": "A link where more than two nodes share a single physical medium"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bandwidth capacity and the tier of the network are separate concepts from the number of nodes sharing a link.",
+        "text": "A link that provides high-bandwidth access to the Internet core"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This specifically describes a point-to-point link, the opposite of multiple-access.",
+        "text": "A link that connects exactly two nodes through a dedicated wire"
+      }
+    ],
+    "hint": "Consider the number of participants sharing the same transmission medium.",
+    "question": "In the context of network connectivity, how is a 'multiple-access' link defined?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Bandwidth calculation is a performance metric, whereas routing is a functional process of navigation.",
+        "text": "Calculating the total bandwidth available between two nodes"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Routing involves using network-wide logic and tables to select the appropriate path for data packets to reach their target host.",
+        "text": "The process of determining how to forward messages toward a destination based on its address"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes the Name Service (DNS), which operates at a higher layer than the fundamental routing of packets.",
+        "text": "Translating human-readable names into machine-readable addresses"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Error detection and correction are typically handled at the link or transport layers, not by the routing process.",
+        "text": "Ensuring that packets are not corrupted during transmission over a physical link"
+      }
+    ],
+    "hint": "Focus on the decision-making process for packet movement through a series of switches or routers.",
+    "question": "What is the primary function of 'routing' in an internetwork?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Fixed multiplexing like STDM provides guarantees, whereas statistical multiplexing is more variable based on demand.",
+        "text": "To guarantee a specific amount of bandwidth to every active flow"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "By sharing resources on-demand rather than in fixed slots, statistical multiplexing allows idle capacity to be used by other active flows.",
+        "text": "To increase the efficiency of link utilisation when data traffic is bursty"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Statistical multiplexing actually requires more complex logic for buffering and scheduling compared to simple fixed-slot systems.",
+        "text": "To simplify the hardware design of the switches"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Because resources are not reserved, statistical multiplexing can lead to congestion and loss if demand exceeds capacity.",
+        "text": "To prevent the possibility of packet loss in the network core"
+      }
+    ],
+    "hint": "Think about how computer data is often sent in bursts rather than at a constant rate.",
+    "question": "Why does packet switching utilise 'statistical multiplexing' rather than fixed time-division multiplexing (STDM)?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "FIFO does not provide encryption or authentication; it is a basic traffic management strategy.",
+        "text": "Security"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "By processing packets in the order they arrive, the switch attempts a basic level of fairness, though more complex schemes like round-robin are often needed.",
+        "text": "Resource allocation fairness"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Multiplexing is the combining of signals; the queuing discipline determines the order in which those combined signals are serviced.",
+        "text": "Multiplexing"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Encapsulation is the process of adding headers to data, which occurs before the packet reaches the router's queue.",
+        "text": "Encapsulation"
+      }
+    ],
+    "hint": "Consider how a switch decides which packet to transmit next when multiple are waiting.",
+    "question": "A router that implements a 'First-In, First-Out' (FIFO) queuing discipline is primarily addressing which design requirement?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The physical layer is concerned only with the raw transmission of bits over a medium.",
+        "text": "Physical Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The network layer deals with packets and internetwork-wide routing, not the direct link framing.",
+        "text": "Network Layer"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The data link layer handles the framing, error detection, and media access control for nodes on the same physical link.",
+        "text": "Data Link Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The transport layer manages end-to-end process communication and segments, rather than frames.",
+        "text": "Transport Layer"
+      }
+    ],
+    "hint": "This layer sits directly above the raw bit transmission layer.",
+    "question": "Which layer of the OSI model is responsible for collecting a stream of bits into an aggregate called a 'frame'?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "The service interface defines how higher layers or applications on the same machine interact with and use the protocol's capabilities.",
+        "text": "The set of operations that a protocol provides to local higher-level objects"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes the 'peer-to-peer' interface or the protocol specification itself.",
+        "text": "The format and meaning of messages exchanged between peer entities on different nodes"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This refers to a hardware interface, not a protocol's logical service interface.",
+        "text": "The physical port on a router where a cable is attached"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes a routing algorithm, which is an internal mechanism of a protocol rather than its interface to others.",
+        "text": "The algorithm used to determine the shortest path to a destination"
+      }
+    ],
+    "hint": "Think about how a protocol exposes its functionality to the layers above it on the same host.",
+    "question": "In network architecture, what is the 'service interface' of a protocol?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The hourglass refers to the variety of protocols at different levels, not a balance of hardware and software components.",
+        "text": "It ensures that the network has equal amounts of hardware and software"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The narrow waist represents the Internet Protocol, which allows many different high-level applications to run over many different low-level technologies.",
+        "text": "It signifies that a single protocol (IP) serves as the common focal point for all applications and technologies"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "An hourglass represents a shape of protocol diversity, not a performance bottleneck or speed limitation.",
+        "text": "It means the network is designed to slow down traffic as it reaches the core"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While packets have a Time-to-Live, the architectural shape is about protocol interoperability.",
+        "text": "It represents the finite amount of time a packet can exist before it is dropped"
+      }
+    ],
+    "hint": "Focus on the 'narrow waist' and what protocol sits there.",
+    "question": "The 'Internet Architecture' is often described as having an 'hourglass' shape. What is the significance of this design?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "This is the definition of 'Transmit' time, which accounts for the time needed to push all the packet's bits onto the wire.",
+        "text": "The size of the packet divided by the link bandwidth"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While application processing adds to end-to-end delay, it is typically not included in the standard network latency formula for a link or switch.",
+        "text": "The processing speed of the application's CPU"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Encryption is an end-to-end data processing task, not a fundamental component of the transmission latency formula.",
+        "text": "The time taken to encrypt the data at the source"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes the delay-bandwidth product, which is a measure of capacity rather than a component of the latency for a single packet.",
+        "text": "The number of bits that can fit in the 'pipe' at once"
+      }
+    ],
+    "hint": "Identify which term in the formula corresponds to the ratio of message size to transmission speed.",
+    "question": "Which of the following components contributes to the total latency of a single packet as defined by the formula $Latency = Propagation + Transmit + Queue$?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This describes the propagation delay or latency, not the product of delay and bandwidth.",
+        "text": "The minimum time required to send a single bit to the receiver"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "It measures how much data can fill the link, representing the amount of data 'in flight' before an acknowledgement can return.",
+        "text": "The total volume of the 'pipe', or the maximum bits that can be in transit at one time"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The speed of light is a constant factor in calculating propagation delay, but it is not the product itself.",
+        "text": "The speed of light through the physical medium"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This relates to scheduling and congestion control rather than the static physical capacity of the link-delay combination.",
+        "text": "The rate at which the queue in a router is depleted"
+      }
+    ],
+    "hint": "Imagine the network link as a hollow cylinder or pipe.",
+    "question": "What does the 'Delay $\\times$ Bandwidth Product' intuitively represent in a network channel?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Bandwidth is less significant for tiny messages because the 'Transmit' time ($Size / Bandwidth$) is negligible.",
+        "text": "Bandwidth"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "For small objects, the time spent waiting for signals to travel back and forth across the distance (latency/RTT) far outweighs the time spent transmitting the bits.",
+        "text": "Round-Trip Time (RTT)"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Throughput is an achieved rate over time; for a single tiny message, it is a result of the transfer time, not the cause of it.",
+        "text": "Throughput"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While queuing delay adds to latency, the fundamental RTT is the baseline dominant factor even in an empty network.",
+        "text": "Queue Depth"
+      }
+    ],
+    "hint": "Consider how $Size / Bandwidth$ behaves when $Size$ is near zero.",
+    "question": "For a very small request/reply message (e.g., 1 byte), which performance metric is the dominant factor in the total transfer time?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Security features are not the primary reason hubs fail under high load; basic traffic handling is the issue.",
+        "text": "It lacks the ability to encrypt data frames"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Hubs operate as a single collision domain, meaning all connected devices share the same bandwidth and interfere with each other during high activity.",
+        "text": "It broadcasts all incoming traffic to every port, increasing collisions and congestion"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Hubs are actually 'plug-and-play' devices, but this lack of intelligence is what makes them inefficient.",
+        "text": "It requires manual configuration for every connected device"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Hubs can have many ports, but their performance degrades as more devices attempt to transmit simultaneously.",
+        "text": "It cannot support more than two devices at a time"
+      }
+    ],
+    "hint": "Think about how a hub handles an incoming signal relative to all its other ports.",
+    "question": "According to the source material, why is a hub considered a poor option for a network with a high traffic load?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Developers typically prioritise the ease of communication and functionality of the channels provided by the network.",
+        "text": "Application Developer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Operators focus on ease of administration, fault isolation, and configuration management.",
+        "text": "Network Operator"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Designers are tasked with creating protocols and hardware that allocate resources fairly and utilize links as efficiently as possible.",
+        "text": "Network Designer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Users are generally concerned with the performance and reliability of the applications they use, not the underlying cost-efficiency.",
+        "text": "End User"
+      }
+    ],
+    "hint": "Identify the role concerned with the architectural efficiency and building materials of the network.",
+    "question": "Which of the following is a key 'stakeholder' perspective that prioritises cost-effective design and efficient resource utilisation?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Compression may occur, but encapsulation specifically refers to the addition of control information.",
+        "text": "The message is compressed to save bandwidth"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Encapsulation involves wrapping higher-level data in the control information required by the current layer to perform its service.",
+        "text": "Each layer adds its own header (and sometimes trailer) to the data received from the layer above"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This process, known as decapsulation, happens at the receiver as the packet moves up the stack.",
+        "text": "The headers from higher layers are removed to make the packet smaller"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Data is kept in binary or byte-string formats that routers can process efficiently using hardware logic.",
+        "text": "The data is converted into human-readable text for easier routing"
+      }
+    ],
+    "hint": "Think about the 'nesting' or 'wrapping' analogy used in layering.",
+    "question": "In the process of encapsulation, what happens to a message as it moves down the protocol stack from the application to the physical layer?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "User 'think time' is an external factor and is not part of the network's internal transfer time metric.",
+        "text": "The time spent by the user thinking before clicking a link"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Transfer time often includes RTTs for handshakes or request messages before the actual data begins to flow.",
+        "text": "Any additional time spent requesting or setting up the transfer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The length is used to calculate propagation delay, which is only one part of the total time.",
+        "text": "The physical length of the optical fibre cable"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The hardware age is irrelevant to the mathematical calculation of a specific transfer's duration.",
+        "text": "The manufacturing date of the network switches"
+      }
+    ],
+    "hint": "Consider the steps that must occur before the first bit of the actual file is received.",
+    "question": "The formula $Throughput = \\frac{TransferSize}{TransferTime}$ includes $TransferTime$. What does this time typically encompass besides the one-way latency?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Best-effort networks do not guarantee ordering; packets may take different paths and arrive out of sequence.",
+        "text": "Ensuring all messages are delivered in the order they were sent"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The term 'best-effort' implies that while the network tries to deliver data, it makes no absolute guarantees against loss or failure.",
+        "text": "Dropping messages without notifying the sender or receiver"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Guarantees require Quality of Service (QoS) mechanisms that go beyond the basic best-effort model.",
+        "text": "Providing a fixed bandwidth guarantee for real-time video"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Retransmission is usually a function of a higher-level reliable protocol like TCP, not the best-effort IP layer.",
+        "text": "Automatically retransmitting any corrupted packets"
+      }
+    ],
+    "hint": "Think about what the 'lack of a guarantee' implies for packet delivery.",
+    "question": "A 'best-effort' network service model, such as that provided by IP, might exhibit which of the following behaviours?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Routing bugs are logic errors, whereas bit errors refer to the corruption of the physical data signal.",
+        "text": "A software bug in the routing table logic"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Bit errors occur when the physical signal is altered such that a 0 is misread as a 1 (or vice versa) at the receiver.",
+        "text": "The corruption of data due to electrical interference or cosmic rays"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is known as congestion or packet loss, which is distinct from the corruption of the bits themselves.",
+        "text": "A switch running out of buffer space and discarding packets"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is a link failure or outage, not a bit error within a transmitted frame.",
+        "text": "A fibre optic cable being physically cut by construction equipment"
+      }
+    ],
+    "hint": "Consider failures that affect the integrity of the data bits while they are in transit.",
+    "question": "In the context of network failure, what does the term 'bit error' refer to?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This describes the forwarding or routing decision made by a switch or router.",
+        "text": "Selecting the best physical link to send a packet out on"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Demultiplexing is the process of stripping headers and using identifiers (like port numbers) to direct data to the appropriate high-level receiver.",
+        "text": "Using a header field to deliver a message to the correct application process"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes multiplexing, which happens at the sender's side.",
+        "text": "Combining multiple data streams into a single sequence of bits"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While related to data handling, reassembly is a specific task of the transport or network layer, whereas demultiplexing is the broader directing of traffic.",
+        "text": "Reassembling a file from multiple individual packets"
+      }
+    ],
+    "hint": "Think about the final step after a message has reached the destination host but hasn't yet reached the application.",
+    "question": "What is the specific role of 'demultiplexing' at the receiving host?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The Session layer is Layer 5 of the OSI model but is often omitted or combined in the Internet architecture.",
+        "text": "Session Layer"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "While the OSI model defines functional layers, it does not mandate specific protocols like IP, which is the cornerstone of the Internet Architecture.",
+        "text": "IP (Internet Protocol)"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The Network layer is a standard functional layer present in both theoretical models.",
+        "text": "Network Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Both models recognise the necessity of a physical layer to handle raw hardware transmission.",
+        "text": "Physical Layer"
+      }
+    ],
+    "hint": "Distinguish between a general functional layer and a specific real-world protocol.",
+    "question": "Which of the following is a component of the 'Internet Architecture' but NOT a defined layer in the 'OSI 7-Layer Model'?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Using multiple frequencies describes Frequency-Division Multiplexing (FDM), not TDM.",
+        "text": "TDM uses multiple frequencies, while Statistical Multiplexing uses one"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "In TDM, if a user has no data to send, their slot goes to waste; in statistical multiplexing, that capacity is immediately available to others.",
+        "text": "Statistical Multiplexing allocates resources on-demand, whereas TDM uses fixed time slots"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Both techniques can be applied to various physical media, including wireless and wired links.",
+        "text": "TDM is only used in wireless networks, while Statistical Multiplexing is only for wired"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Synchronisation is a critical requirement for TDM to ensure nodes transmit in their correct slots; statistical multiplexing is more asynchronous.",
+        "text": "Statistical Multiplexing requires a central clock to synchronise all nodes"
+      }
+    ],
+    "hint": "Consider what happens when a particular user has no data to send at a given moment.",
+    "question": "How does 'Statistical Multiplexing' differ from 'Time-Division Multiplexing' (TDM)?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Header processing is a component of switching or queuing delay, not propagation delay.",
+        "text": "It represents the time taken to process the packet's header in a switch"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Propagation delay is determined solely by the distance of the link and the speed of light in the medium ($Distance / SpeedOfLight$).",
+        "text": "It is the time for a single bit to travel from one end of the link to the other"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes queuing delay, which varies based on network traffic load.",
+        "text": "It accounts for the time bits spend waiting in a router's memory"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes the transmit time ($Size / Bandwidth$).",
+        "text": "It refers to the time needed to transmit all bits of a packet at the link's clock rate"
+      }
+    ],
+    "hint": "Think about the physical distance and the speed of the signal itself.",
+    "question": "What is the significance of 'Propagaton Delay' in the latency equation?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "This is calculated using the delay-bandwidth product: $10 \\times 10^6 \\text{ bps} \\times 0.050 \\text{ s} = 500,000 \\text{ bits}$.",
+        "text": "500,000 bits"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This would be the result if the latency were only 0.5 ms rather than 50 ms.",
+        "text": "5,000 bits"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This would be the result for a 100 ms latency or a 20 Mbps bandwidth.",
+        "text": "1,000,000 bits"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This result stems from a calculation error in the units of latency or bandwidth.",
+        "text": "50,000,000 bits"
+      }
+    ],
+    "hint": "Multiply the bandwidth (bits per second) by the delay (seconds).",
+    "question": "If a network has a bandwidth of 10 Mbps and a one-way latency of 50 ms, what is the maximum number of bits that can be 'in flight' on the link?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Sending requests is typical of a client using 'connect' or 'send'.",
+        "text": "To send a request for a file to a remote host"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The 'listen' call puts the socket into a passive state where it waits for clients to attempt a connection.",
+        "text": "To indicate that the server is willing to accept incoming connection requests"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Data reception is handled by calls like 'recv' or 'read' after a connection is established.",
+        "text": "To receive the actual data payload from a client's message"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Binding an address is the job of the 'bind' system call, which usually happens before 'listen'.",
+        "text": "To bind a specific IP address to the server's network interface"
+      }
+    ],
+    "hint": "Consider the state a server must enter to be ready for clients.",
+    "question": "In the Socket API, what is the purpose of the 'listen' system call on a server?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Both are typically measured in bits per second; the difference is in the achieved vs. potential rate.",
+        "text": "Because bandwidth is measured in bytes while throughput is in bits"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Bandwidth is the physical capacity of the link, while throughput is the actual rate of data transfer realised by an application.",
+        "text": "Because throughput accounts for protocol overhead, RTTs, and queuing delays"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The speed of light affects latency, but bandwidth is the primary physical constraint on the rate of transmission.",
+        "text": "Because throughput is always limited by the speed of light"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "All networks, wired or wireless, have a finite bandwidth capacity based on their physical characteristics.",
+        "text": "Because bandwidth is only a concern for wireless networks"
+      }
+    ],
+    "hint": "Think about the extra time and bits required beyond the raw application data.",
+    "question": "Why does the 'Throughput' of a network often differ from its theoretical 'Bandwidth'?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The Application layer provides services to the user, but the formatting of the data itself is a separate lower-level task.",
+        "text": "Application Layer"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Layer 6 is specifically designed to handle the representation of data, including translation, encryption, and compression.",
+        "text": "Presentation Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The Session layer manages dialogues and connections between applications, not the format of the data bits.",
+        "text": "Session Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The Transport layer is concerned with reliable delivery and flow control, not the content's appearance or format.",
+        "text": "Transport Layer"
+      }
+    ],
+    "hint": "This layer is positioned just below the Application layer.",
+    "question": "Which layer of the OSI model is responsible for 'Presentation Formatting', such as data encryption or compression?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Switches use high-speed memory (RAM) for buffers; disk access is too slow for real-time packet switching.",
+        "text": "The packet is stored on the switch's hard drive temporarily"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Congestion occurs when arrival rates exceed departure rates, leading to buffer overflow and packet loss.",
+        "text": "The packet is dropped and effectively lost"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The speed of light is a physical constant and cannot be altered by network equipment.",
+        "text": "The switch slows down the speed of light to allow more time for processing"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Nodes do not typically send packets back; the sender only knows of the loss if it fails to receive an acknowledgement.",
+        "text": "The packet is automatically sent back to the sender for storage"
+      }
+    ],
+    "hint": "Think about the term 'buffer overflow'.",
+    "question": "In a packet-switched network, what happens to a packet if a switch's buffer is completely full upon its arrival?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Layering often adds slight overhead; its primary benefit is organisational rather than speed.",
+        "text": "To make the network faster by parallelising tasks"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Layering provides an abstraction that allows developers to change one part of the system without affecting the others.",
+        "text": "To decompose a complex system into manageable and reusable components"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Layering is independent of the routing path; packets can still take different routes in a layered architecture.",
+        "text": "To ensure that every packet takes the exact same path through the network"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Layering is a software and logical architectural concept, not a physical wiring strategy.",
+        "text": "To reduce the physical number of cables needed to connect hosts"
+      }
+    ],
+    "hint": "Focus on how engineers manage the complexity of building a global system.",
+    "question": "What is the primary motivation for using 'Layering' in computer network design?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Builders are usually more concerned with the protocol specifications and hardware performance.",
+        "text": "Network Builder"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Operators are responsible for the day-to-day running of the network and need tools to find and fix problems quickly.",
+        "text": "Network Operator"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Developers care more about the reliability and latency of the data channels they use.",
+        "text": "Application Developer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Users generally don't care about administration as long as their applications work as expected.",
+        "text": "End User"
+      }
+    ],
+    "hint": "Think about the person whose job is to keep the network running behind the scenes.",
+    "question": "Which perspective of a network would list 'ease of administration and fault isolation' as the most important characteristics?"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This formula defines the Propagation delay, not the transmit time.",
+        "text": "$Transmit = \\frac{Distance}{SpeedOfLight}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Transmit time is the duration required to inject all bits of a packet into the network at the link's given bit rate.",
+        "text": "$Transmit = \\frac{Size}{Bandwidth}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Multiplying size by latency does not yield a time-based duration for transmission.",
+        "text": "$Transmit = Size \\times Latency$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Transmit is a distinct component that, when added to propagation and queue, equals total latency.",
+        "text": "$Transmit = Propagation + Queue$"
+      }
+    ],
+    "hint": "It involves the relationship between the amount of data and the speed of the interface.",
+    "question": "In the latency formula, how is 'Transmit Time' mathematically expressed?"
+  }
+]
