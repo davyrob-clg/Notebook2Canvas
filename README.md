@@ -7,11 +7,15 @@ This is a simple desktop application that converts the JSON output from the Note
 
 https://notebooklmexportkit.netlify.app/ 
 
-This converts to a Canvas friendly markdown format that can be imported as a quiz assignment.
+Using Google NotebookLM is great for students and teachers. https://notebooklm.google.com/
+
+It can really help with study and learning. Its quizzes are rewally cool.
 
 I liked the idea of being able to import quizzes from the very excellent Google NotebookLM tool - but of course that doesnt work.
 
 ExportKit app does exactly what you need - apart from the fact it does not currently support Canvas QTI import format. You also need to pay a sub but its well worth it.
+
+So this tool converts to a Canvas friendly markdown format that can be imported as a quiz assignment.
 
 ## Importing to Canvas!
 
