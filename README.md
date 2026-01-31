@@ -11,7 +11,7 @@ Using Google NotebookLM is great for students and teachers. https://notebooklm.g
 
 It can really help with study and learning. Its quizzes are really cool. Your own ChatGPT with your own study material.
 
-I liked the idea of being able to import quizzes from the very excellent Google NotebookLM tool - but of course that doesnt work.
+I liked the idea of being able to import quizzes from NotebookLM - but of course that doesnt work.  It cant be easily exported.
 
 ExportKit app does exactly what you need - apart from the fact it does not currently support Canvas QTI import format. You also need to pay a sub but its well worth it.
 
