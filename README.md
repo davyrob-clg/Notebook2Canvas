@@ -9,7 +9,7 @@ https://notebooklmexportkit.netlify.app/
 
 Using Google NotebookLM is great for students and teachers. https://notebooklm.google.com/
 
-It can really help with study and learning. Its quizzes are rewally cool.
+It can really help with study and learning. Its quizzes are really cool. Your own ChatGPT with your own study material.
 
 I liked the idea of being able to import quizzes from the very excellent Google NotebookLM tool - but of course that doesnt work.
 
