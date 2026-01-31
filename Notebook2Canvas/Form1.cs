@@ -13,7 +13,8 @@ namespace Notebook2Canvas
 {
     public partial class Form1 : Form
     {
-        String jsonExportFile;
+        String mdExportFile;
+        String jsonImportFile;
         public Form1()
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace Notebook2Canvas
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.Title = "Select a file";
+                openFileDialog.Title = "Select a NotebookLM JSON file";
                 openFileDialog.Filter = "JSON Files (*.json)|*.json|Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
                 //openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
                 openFileDialog.InitialDirectory = ".";
@@ -38,14 +39,18 @@ namespace Notebook2Canvas
                 {
                     try
                     {
+                        jsonImportFile = openFileDialog.FileName;
+                        mdExportFile = Path.ChangeExtension(jsonImportFile, ".md");
                         // Display file path
-                        textBox1.Text = openFileDialog.FileName;
+                        textBox1.Text = jsonImportFile;
+                        textBox2.Text = mdExportFile;
 
-                        // Read and display file content
+                        // Read and display file content from the import file
                         String content = File.ReadAllText(openFileDialog.FileName);
                         richTextBox1.Text = content;
 
-                        jsonExportFile = openFileDialog.FileName;
+
+                        
 
                     }
                     catch (Exception ex)
@@ -60,11 +65,29 @@ namespace Notebook2Canvas
         {
             JsonToTextConverter jsonToTextConverter = new JsonToTextConverter();
 
-            String textFile = jsonToTextConverter.Convert(jsonExportFile, "output.md");
+            StringBuilder sq = jsonToTextConverter.Convert(jsonImportFile, mdExportFile);
 
-            richTextBox2.Text = textFile;
+            richTextBox2.Text = sq.ToString();
+
+            File.WriteAllText(mdExportFile, sq.ToString());
 
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
+            File.WriteAllText(mdExportFile, richTextBox2.Text);
+            
         }
     }
 }

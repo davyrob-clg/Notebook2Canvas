@@ -10,7 +10,7 @@ public class JsonToTextConverter
     /// <summary>
     /// Converts a JSON file into a plain text file by extracting all string values.
     /// </summary>
-    public String Convert(string jsonFilePath, string outputTextFilePath)
+    public StringBuilder Convert(string jsonFilePath, string outputTextFilePath)
     {
         if (!File.Exists(jsonFilePath))
             throw new FileNotFoundException("JSON file not found.", jsonFilePath);
@@ -24,11 +24,9 @@ public class JsonToTextConverter
         //ExtractText(root, sb);
 
         ExtractQuestion(root, sbQuestions);
+              
 
-        File.WriteAllText(outputTextFilePath, sbQuestions.ToString());
-
-        return sbQuestions.ToString();
-    }
+        return sbQuestions;    }
 
     /// <summary>
     /// Extract JSON from a notebook format and then create a file that can be converted by texttoqti - python code.
